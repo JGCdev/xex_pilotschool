@@ -1,6 +1,6 @@
 var tableauQuestion = [
 	{
-		question: "¿Cuál es el nivel máximo de alcohol en sangre para un piloto de aeronaves?",
+		question: "What is the maximum blood alcohol level for an aircraft pilot?",
 		propositionA: "0.15g/l",
 		propositionB: "0.05g/l",
 		propositionC: "0.5g/l",
@@ -9,74 +9,74 @@ var tableauQuestion = [
 	},
 
 	{
-		question: "¿Cuales son las zonas permitidas para el aterrizaje de aeronaves?",
-		propositionA: "Carreteras con suficiente espacio",
-		propositionB: "Pista del aeropuerto",
-		propositionC: "Cualquiera de las pistas de aterrizaje de la ciudad / helipuertos autorizados",
-		propositionD: "Helipuertos / carreteras / pistas de aterrizaje",
+		question: "What are the permitted areas for aircraft landing?",
+		propositionA: "Roads with enough space",
+		propositionB: "airport runway",
+		propositionC: "Any of the city's authorized airstrips/heliports",
+		propositionD: "Heliports / roads / airstrips",
 		reponse: "C"
 	},
-
+		
 	{
-		question: "¿Cuál es la altura mínima de vuelo en zonas urbanas?",
+		question: "What is the minimum flight height in urban areas?",
 		propositionA: "1200m",
 		propositionB: "150m",
 		propositionC: "200m",
 		propositionD: "500m",
 		reponse: "B"
 	},
-
+		
 	{
-		question: "¿Cuál es la altura mínima de vuelo fuera de zonas urbanas?",
+		question: "What is the minimum flight height outside urban areas?",
 		propositionA: "500m",
 		propositionB: "1050m",
 		propositionC: "50m",
 		propositionD: "100m",
 		reponse: "C"
 	},
-
+		
 	{
-		question: "Según la norma número 1 del espacio aéreo",
-		propositionA: "No es posible conducir helicópteros de noche",
-		propositionB: "Todos los pilotos deben tener licencia para el tipo de vehículo que conducen",
-		propositionC: "No está permitido hacer piruetas",
-		propositionD: "Se debe respetar las normas de aviación",
+		question: "According to airspace rule number 1",
+		propositionA: "It is not possible to drive helicopters at night",
+		propositionB: "All drivers must be licensed for the type of vehicle they drive",
+		propositionC: "Troubleshooting is not allowed",
+		propositionD: "Aviation rules must be respected",
 		reponse: "B"
 	},
-
+		
 	{
-		question: "Si hay otro piloto manejando aeronaves en un hangar, debo:",
-		propositionA: "Pitar para que acabe",
-		propositionB: "Pedirle que se aparte un momento",
-		propositionC: "Respetar su turno y esperar a que termine",
-		propositionD: "Solicitar su licencia de piloto",
+		question: "If there is another pilot operating aircraft in a hangar, I must:",
+		propositionA: "Beep to finish",
+		propositionB: "Ask him to step aside for a moment",
+		propositionC: "Respect your turn and wait for it to finish",
+		propositionD: "Apply for your pilot's license",
 		reponse: "C"
 	},
-
+		
 	{
-		question: "La limitación de velocidad en el espacio aéreo es de:",
-		propositionA: "200km/h para pistas de aterrizaje",
-		propositionB: "No existen límites de velocidad",
+		question: "The speed limit in the airspace is:",
+		propositionA: "200km/h for runways",
+		propositionB: "There are no speed limits",
 		propositionC: "200km/h",
 		propositionD: "100km/h",
 		reponse: "A"
 	},
-
+		
 	{
-		question: "Si divisa a otro piloto realizando acciones ilegales",
-		propositionA: "Me uniré a él",
-		propositionB: "Informaré a las autoridades vía /911",
-		propositionC: "Intentaré avisarle para que se detenga",
-		propositionD: "No debo hacer nada",
+		question: "If you see another pilot performing illegal actions",
+		propositionA: "I will join him",
+		propositionB: "I will inform the authorities via /911",
+		propositionC: "I'll try to warn you to stop",
+		propositionD: "I must do nothing",
 		reponse: "B"
 	},
-
+		
 	{
-		question: "Está prohibido realizar acrobacias en:",
-		propositionA: "Zonas marítimas",
-		propositionB: "Toda la ciudad",
-		propositionC: "Zonas montañosas",
-		propositionD: "Zonas urbanas excluyendo competiciones / exhibiciones",
+		question: "It is forbidden to perform stunts on:",
+		propositionA: "Maritime areas",
+		propositionB: "The whole city",
+		propositionC: "Mountainous areas",
+		propositionD: "Urban areas excluding competitions / exhibitions",
 		reponse: "D"
 	},
 ]
