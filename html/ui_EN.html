@@ -1,0 +1,124 @@
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+
+<body>
+	<div class="full-screen">
+		<div class="question-container">
+			<!-- header -->
+			<div class="header">
+				<h1>Pilot School</h1>
+			</div>
+			<!-- home -->
+			<div class="body home">
+				<div class="content">
+					<!-- ICI BREVE PRESENTATION -->
+					<center>
+						<img src="dmv.png" class="logo">
+					</center>
+					<br>
+					<p class="bold-text" style="text-align:center">Welcome to Pilot School
+						<center>All pilots in Sin City must pass their test before they can fly an aircraft.
+						<br> Take your time, answer with common sense and don't answer randomly...
+						<br> You can find the regulations related to aircrafts at sincity.com/regulations
+						<br>
+						<br> Theoretical test
+						<br> - The theoretical test costs 35000$, this is not refunded if you fail the test.
+						<br> - Don't be afraid, the theoretical test can be paid with credits, but be careful not to get into debt.
+						<br> - If you fail the test the first time, you can't take it again right away, you'll have to take it later.
+						<br>
+						<br> Practical test
+						<br> - The practical test costs 45000$, the same as the theoretical test, this payment will not be refunded if you fail.
+						<br> - Credits are not accepted in this test.
+						<br> - Make sure you stay alert while driving and avoid accidents!
+
+
+						</center>
+					</p>
+					<br>
+				</div>
+				<div class="buttonspot">
+					<a href="#" class="button btnQuestion">Start</a>
+				</div>
+				<div class="barre-progression">
+					<h2>Progress</h2>
+					<progress class="progression" value="0" max="10">
+				</div>
+			</div>
+			<!-- Question-->
+			<div class="body questionnaire-container">
+				<div class="content">
+					<h2>Question: <span id="questionNumero"></span></h2>
+					<p id="question"></p>
+					<form class="form" id="question-form">
+						<div>
+							<input type="radio" name="question" id="answerA" value="A">
+							<label class="answerA"></label>
+						</div>
+						<div>
+							<input type="radio" name="question" id="answerB" value="B">
+							<label class="answerB"></label>
+						</div>
+						<div>
+							<input type="radio" name="question" id="answerC" value="C">
+							<label class="answerC"></label>
+						</div>
+						<div>
+							<input type="radio" name="question" id="answerD" value="D">
+							<label class="answerD"></label>
+						</div>
+						<button type="submit" id="submit" class="submit">Next Question</button>
+					</form>
+				</div>
+				<div class="barre-progression">
+					<h2>Progress</h2>
+					<progress class="progression" value="0" max="9">
+				</div>
+			</div>
+			<!-- Results -->
+			<div class="body resultGood">
+				<div class="content">
+					<center>
+						<p class="bold-text">Good work!</p>
+						<br>
+						<br>You did well during the theory test.
+						<br>
+						<br>You can close this window and take the practice tests.
+					</center>
+				</div>
+				<div class="buttonspot">
+					<a href="#" class="button btnClose">Close</a>
+				</div>
+				<div class="barre-progression">
+					<h2>Progress</h2>
+					<progress class="progression" value="10" max="10">
+				</div>
+			</div>
+			<div class="body resultBad">
+				<div class="content">
+					<center>
+						<p class="bold-text">FAILED</p>
+						<br>
+						<br>You weren't ready for this test, try again later ...
+						<br>
+						<br>
+					</center>
+				</div>
+				<div class="buttonspot">
+					<a href="#" class="button btnKick">Close</a>
+				</div>
+				<div class="barre-progression">
+					<h2>Progress</h2>
+					<progress class="progression" value="10" max="10">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+	<script src="questions.js" type="text/javascript"></script>
+	<script src="scripts.js" type="text/javascript"></script>
+	<script src="debounce.min.js" type="text/javascript"></script>
+
+</body>
