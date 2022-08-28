@@ -1,5 +1,5 @@
-# esx_dmvschool
-Pilot School for ESX
+# xex_pilotschool
+Pilot School for ESX. Based on DMV School: https://forum.cfx.re/t/release-dmv-school-drivers-license/26798
 
 ## Requirements
 - esx_license
