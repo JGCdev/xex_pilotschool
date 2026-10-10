@@ -1,4 +1,8 @@
 # xex_pilotschool
+
+> **Legacy (ESX only).** Replaced by [Aviation](https://xexstudio.com/scripts/aviation?utm_source=github&utm_campaign=pilotschool): pilot school, contracts and ranks for ESX, QBCore and Qbox.
+> More XeX scripts on [xexstudio.com](https://xexstudio.com/scripts?utm_source=github&utm_campaign=pilotschool).
+
 Pilot School for ESX. Based on DMV School: https://forum.cfx.re/t/release-dmv-school-drivers-license/26798
 
 ## Requirements
